@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    background: -webkit-linear-gradient(to right, #2c3e50, #3498db); 
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    width: 30vw;
+    background-color: rgba(240, 243, 246, 0.4);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.info{
+    background-image: url(images/mainbgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5VW;
+}
+.position{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5VW;
+}
+.description{
+    font-size: 1.5VW;
+    font-family: 'Square Peg', cursive;
+}
+
+main{
+    background-color: grey;
+}
+.best_places{
+    padding: 50px 10%;
+}
+.plahead{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 40px;
+  font-weight: lighter; 
+  color: black;
+  padding-bottom: 20px;
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   row-gap: 35px;
+   column-gap: 5%;
+}
+.place{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.place_detail{  
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    min-height: 0;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+.place_detail:hover{
+    min-height: 50%;
+    
+}
+.pname{
+    cursor: pointer;
+}
+.pname:hover{
+    color: rgb(20, 94, 231);
+}
+.place:nth-child(1){
+    background-image: url(images/mysore_palace.jpg);
+}
+.place:nth-child(2){
+    background-image: url(images/chamundihill.jpg);
+}
+.place:nth-child(3){
+    background-image: url(images/zoo.jpg);
+}
+.place:nth-child(4){
+    background-image: url(images/krsdam.jpg);
+}
+.place:nth-child(5){
+    background-image: url(images/jagan.jpg);
+}
+.place:nth-child(6){
+    background-image: url(images/nanjangud.jpg);
+}
+.best_hotels{
+    padding: 50px 10%;
+}
+.hothead{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 40px;
+  font-weight: lighter; 
+  color: black;
+  padding-bottom: 20px;
+}
+.hotels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   row-gap: 35px;
+   column-gap: 5%;
+}
+.hotel{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hotel_detail{  
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    min-height: 0;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+.hotel_detail:hover{
+    min-height: 50%;
+    
+}
+.hname{
+    cursor: pointer;
+}
+.hname:hover{
+    color: rgb(20, 94, 231);
+}
+.hotel:nth-child(1){
+    background-image: url(images/radisson.jpg);
+}
+.hotel:nth-child(2){
+    background-image: url(images/grandmer.jpg);
+}
+.hotel:nth-child(3){
+    background-image: url(images/forjp.jpg);
+}
+.hotel:nth-child(4){
+    background-image: url(images/sandesh.jpg);
+}
+.hotel:nth-child(5){
+    background-image: url(images/sstar.jpg);
+}
+.hotel:nth-child(6){
+    background-image: url(images/emerald.jpg);
+}
+footer{
+    background: #004ff9; 
+    background: -webkit-linear-gradient(to right, #004ff9, #fff94c); 
+    background: linear-gradient(to right, #004ff9, #fff94c);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+}
+
